@@ -138,6 +138,7 @@ STATICFILES_DIRS = [
     BASE_DIR / 'static/shope'
     ]
 
+STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 
 
